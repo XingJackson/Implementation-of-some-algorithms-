@@ -11,12 +11,14 @@ def get_size(lst):
 
 
 # basic info
+batch= 1
 h = 56
 w = 56
 in_channel = 3
 out_channel = 64
 kernel_size = 3
 test_stride = 1
+padding = 0
 
 # Initialize a random matrix
 test_input = [[[random.randint(0, 10) for _ in range(3)] for _ in range(56)] for _ in range(56)]
